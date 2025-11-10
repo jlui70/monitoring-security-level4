@@ -1,0 +1,30 @@
+global:
+  scrape_interval: 15s  # Intervalo padrão de coleta de métricas
+  evaluation_interval: 15s  # Intervalo de avaliação de regras
+
+# Configuração de regras de alerta (opcional)
+rule_files:
+  # - "first_rules.yml"
+  # - "second_rules.yml"
+
+# Configuração de scraping
+scrape_configs:
+  # Monitoramento do próprio Prometheus
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # Monitoramento do Grafana (funciona nativamente)
+  - job_name: 'grafana'
+    static_configs:
+      - targets: ['grafana:3000']
+
+  # Node Exporter - Métricas do sistema operacional  
+  - job_name: 'node-exporter'
+    static_configs:
+      - targets: ['node-exporter:9100']
+
+  # MySQL Exporter - Métricas do banco de dados MySQL
+  - job_name: 'mysql-exporter'
+    static_configs:
+      - targets: ['mysql-exporter:9104']
