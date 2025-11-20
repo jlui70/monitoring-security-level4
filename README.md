@@ -6,20 +6,7 @@
 ![Terraform](https://img.shields.io/badge/IaC-Terraform-purple)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-green)
 
-# 🔐 Monitoring Security Level 4 - AWS Secrets Manager
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Terraform](https://img.shields.io/badge/Terraform-1.0+-623CE4?logo=terraform)
-![AWS](https://img.shields.io/badge/AWS-Secrets_Manager-FF9900?logo=amazon-aws)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker)
-![Zabbix](https://img.shields.io/badge/Zabbix-7.0.5-CC0000?logo=zabbix)
-![Grafana](https://img.shields.io/badge/Grafana-12.0.2-F46800?logo=grafana)
-![Prometheus](https://img.shields.io/badge/Prometheus-2.48.1-E6522C?logo=prometheus)
-
 **Cloud-native monitoring stack** com AWS Secrets Manager para gerenciamento seguro de credenciais na AWS Cloud, com KMS encryption, IAM roles, e auditoria via CloudTrail.
-
-> 🎯 **Posição na Série:** Este é o **Level 4** de 5 na evolução de segurança  
-> 📈 **Evolução:** Level 3 (HashiCorp Vault) → **Level 4 (AWS Secrets Manager)** → Level 5 (K8s + Vault)
 
 ---
 
