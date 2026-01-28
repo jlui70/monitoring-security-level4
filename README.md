@@ -6,7 +6,25 @@
 ![Terraform](https://img.shields.io/badge/IaC-Terraform-purple)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-green)
 
-**Cloud-native monitoring stack** com AWS Secrets Manager para gerenciamento seguro de credenciais na AWS Cloud, com KMS encryption, IAM roles, e auditoria via CloudTrail.
+---
+
+## 📋 **Sobre Este Projeto**
+
+Este projeto demonstra a evolução para **nível enterprise de segurança** através da implementação de uma stack completa de monitoramento na AWS Cloud, utilizando AWS Secrets Manager para gerenciamento centralizado de credenciais, totalmente provisionada via Infrastructure as Code (Terraform).
+
+A arquitetura combina as ferramentas mais utilizadas no mercado de monitoramento:
+
+☁️ **AWS Cloud Deployment** com infraestrutura completa via Terraform  
+🔐 **AWS Secrets Manager** para gerenciamento seguro de credenciais  
+🔑 **KMS Encryption** para criptografia nativa de todos os secrets  
+👤 **IAM Roles** eliminando credenciais hardcoded  
+📊 **CloudTrail Audit** rastreando todos os acessos a secrets  
+📈 **Stack de Monitoramento** incluindo Zabbix 7.0.5, Grafana 12.0.2 e Prometheus  
+🐳 **Docker Compose** orquestrando containers MySQL, Exporters e aplicações  
+
+🎯 **Objetivo**: Demonstrar a evolução do **Level 3 (HashiCorp Vault on-premise)** para **Level 4 (AWS Secrets Manager cloud-native)**, evidenciando integração nativa com serviços AWS, autenticação via IAM, e auditoria automática via CloudTrail.
+
+✅ **Resultado**: Stack de monitoramento production-ready com segurança enterprise-grade, onde todas as credenciais são gerenciadas centralmente, criptografadas com KMS, versionadas, auditadas e sem nenhuma senha hardcoded no código ou arquivos de configuração.
 
 ---
 
@@ -481,24 +499,36 @@ Contribuições são bem-vindas! Veja [CONTRIBUTING.md](CONTRIBUTING.md) para de
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## ⭐ Suporte
-
-Se este projeto foi útil, considere dar uma ⭐ no GitHub!
+---
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👤 Autor
+---
 
-Criado para fins educacionais e demonstração de DevSecOps best practices.
+## 📞 Contato e Suporte
 
-## � Agradecimentos
+### 🌐 Conecte-se Comigo
 
-- Comunidade Zabbix
-- Grafana Labs
-- Prometheus
-- AWS Documentation
+- 📹 **YouTube**: [DevOps Project](https://devopsproject.com.br/)
+- 💼 **Portfólio**: [devopsproject.com.br](https://devopsproject.com.br/)
+- 💻 **GitHub**: [@jlui70](https://github.com/jlui70)
+
+### 🌟 Gostou do Projeto?
+
+Se este projeto foi útil para você:
+
+- ⭐ Dê uma estrela nos repositórios
+- 🔄 Compartilhe com a comunidade
+- 📹 Inscreva-se no canal do YouTube
+- 🤝 Contribua com melhorias
+
+---
+
+**🎯 Level 4 alcançado! A jornada de segurança continua evoluindo para o Level 5 com Kubernetes + Vault!**
+
+*"Segurança na nuvem não é apenas sobre ferramentas, mas sobre arquitetura e governança inteligente."*
 
 ---
 

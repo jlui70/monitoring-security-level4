@@ -33,3 +33,6 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Internal docs (não sobem para o GitHub)
+docs internos/
