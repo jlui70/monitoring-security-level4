@@ -1,6 +1,8 @@
 # 🔐 Monitoring Security Evolution - Nível 4: AWS Cloud
 ## Stack de Monitoramento com AWS Secrets Manager + Terraform
 
+![Arquitetura do Projeto](Diagrama%20camadas%20Monitoring%20Security%204.png)
+
 ![Security Level](https://img.shields.io/badge/Security%20Level-4%20AWS%20Cloud-blue)
 ![AWS](https://img.shields.io/badge/AWS-Secrets%20Manager-orange)
 ![Terraform](https://img.shields.io/badge/IaC-Terraform-purple)
